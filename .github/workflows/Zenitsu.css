@@ -1,0 +1,106 @@
+
+abuse: throwbin2@airmail.cc 
+Zenistu
+ 
+css
+ Save
+1
+/*
+2
+Theme Owned and Made by Emeste
+3
+  
+4
+Background Img: https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png 
+5
+Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css - By Ruben7173#5048
+6
+​
+7
+The 2 items above are not owned by me, They go to there respected owners
+8
+*/
+9
+​
+10
+:root{
+11
+    --background: url('https://i.ytimg.com/vi/yVyMjCErcaE/maxresdefault.jpg');
+12
+    --activetext-colour: white;
+13
+​
+14
+    --primary1-colour: yellow;
+15
+    --primary2-colour: rgba(255,255,0,0.5);
+16
+    --primary3-colour: rgba(255,255,0,0.6);
+17
+​
+18
+    --secondary1-colour: rgba(100,100,0,0.3);
+19
+    --secondary2-colour: rgba(50,5O,0,0.5);
+20
+    --secondary3-colour: rgba(0,0,0,0.5);
+21
+​
+22
+    --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+23
+    --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+24
+    --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+25
+    --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+26
+    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+27
+}
+28
+​
+29
+/*--------------------------------------------------------*/
+30
+​
+31
+/*Theme Itself*/
+32
+    /*Background Img*/
+33
+    #app-mount,
+34
+    #app-mount .container-16j22k {
+35
+        background-image: var(--background); 
+36
+        background-position: center; 
+37
+        background-size: cover; 
+38
+    }
+39
+​
+40
+    /*Home*/
+41
+    #app-mount .container-1r6BKw {background: transparent;}
+42
+ 
+43
+    #app-mount .itemCard-v9viV7,
+44
+    #app-mount .popout-38lTFE {
+45
+        background-color: var(--secondary3-colour)
+46
+    }
+47
+    #app-mount .itemCard-v9viV7:hover, 
+48
+    #app-mount .itemCard-v9viV7.active-1xchHY {
+49
+        background-color: var(--secondary2-colour);
+50
+    }
